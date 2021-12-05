@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<rss version="2.0">
+	<channel>
+		<item>
+			<title>RHCP News</title>
+			<description>News about your favourite band!</description>
+			<link>http://rhcp-fansite.eu.pn/news/news.html</link>
+		</item>
+		<item>
+			<title>RHCP Discography</title>
+			<description>New album is here! Check it out!</description>
+			<link>http://rhcp-fansite.eu.pn/discography.html</link>
+		</item>
+		<item>
+			<title>RHCP Gallery</title>
+			<description>You missed the last show? Check out our gallery!</description>
+			<link>http://rhcp-fansite.eu.pn/gallery.html</link>
+		</item>
+	</channel>
+	</rss>
