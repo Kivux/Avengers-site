@@ -40,14 +40,25 @@ a {
 }
 
 hr {
-    color: purple;
+    color: #8831d0;
     width: 70%;
     display: inline-block;
 }
 
-section {
-    margin: 50px 0;
+main {
+    margin: 50px 120px;
+    padding: 30px;
 }
+
+main section:first-of-type {
+    margin-top: 0;
+}
+
+.important {
+    color: #8831d0;
+}
+
+/* ========================== header & nav ==========================  */
 
 header {
     position: relative;
@@ -95,6 +106,20 @@ nav#glavni-meni ul li a {
     text-decoration: underline;
 }
 
+header#header-autor {
+    background-image: url("../images/Avengers1.jpg");
+}
+
+header#header-galerija {
+    background-image: url("../images/wallpaper1.jpg");
+}
+
+header#header-radnja-filma {
+    background-image: url("../images/wallpaper3.jpg");
+}
+
+/* ========================== footer ==========================  */
+
 footer {
     background-color: rgba(0, 0, 0, 0.9);
 }
@@ -107,32 +132,11 @@ footer {
     align-items: center;
     flex-direction: column;
     padding: 100px 0;
-    background: url("/assets/images/Avengers-comic.png") center 30% no-repeat;
     background-size: 1000px;
 }
 
 footer #copyright {
     text-align: center;
-}
-
-main {
-    padding: 30px;
-}
-
-main section:first-of-type {
-    margin-top: 0;
-}
-
-header#header-autor {
-    background-image: url("../images/Avengers1.jpg");
-}
-
-header#header-galerija {
-    background-image: url("../images/wallpaper1.jpg");
-}
-
-header#header-radnja-filma {
-    background-image: url("../images/wallpaper3.jpg");
 }
 
 footer #social-icons ul {
@@ -156,9 +160,7 @@ footer #copyright .text-wrap {
     text-align: center;
 }
 
-#radnja-filma {
-    margin: 15px 120px;
-}
+/* ========================== radnja filma ==========================  */
 
 #radnja-filma .radnja-filma-opis {
     display: flex;
@@ -190,4 +192,84 @@ footer #copyright .text-wrap {
 
 #radnja-filma .radnja-filma--slika img:hover {
     opacity: 0.5;
+}
+
+/* ========================== galerija ==========================  */
+
+#galerija section {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#galerija img {
+    width: 250px;
+    height: auto;
+}
+
+#galerija img:hover {
+    opacity: 0.5;
+}
+
+/* ========================== pocetna ==========================  */
+
+#pocetna section {
+    margin-bottom: 30px;
+}
+
+#pocetna section h1,
+#pocetna section h2,
+#pocetna section h3 {
+    margin-bottom: 15px;
+}
+
+#pocetna .zanrovi {
+    margin: 10px 0;
+}
+
+#pocetna span {
+    display: inline-flex;
+}
+
+#pocetna .zanrovi span {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#pocetna .nominacije {
+    margin: 20px 0;
+    border: 1px solid rgb(245, 197, 24);
+    border-radius: 10px;
+}
+
+#pocetna .nominacije span:not(:first-child) {
+    margin-left: 10px;
+}
+
+#pocetna .nominacije .imdb-stil {
+    background-color: rgb(245, 197, 24);
+    padding: 10px;
+    font-weight: bold;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+#pocetna .nominacije .imdb-stil a {
+    color: black;
+}
+
+#pocetna .glumci-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#pocetna .glumci figcaption p {
+    font-size: 13px;
+    text-align: center;
+}
+
+#pocetna .glumci img {
+    width: 100px;
+    border-radius: 50%;
 }
