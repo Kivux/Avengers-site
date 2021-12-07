@@ -285,12 +285,69 @@ footer #copyright .text-wrap {
     border-radius: 50%;
 }
 
+#pocetna .linkovi-ka-stranicama {
+    display: flex;
+}
+
+#pocetna .linkovi-ka-stranicama a {
+    color: white;
+    background: #8831d0;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    font-size: 20px;
+}
+
+#pocetna .linkovi-ka-stranicama .jedan-link {
+    background: black;
+    overflow: hidden;
+    background: #c33764;
+    background: -webkit-linear-gradient(
+            rgba(29, 38, 113, 0.8),
+            rgba(195, 55, 100, 0.8)
+        ),
+        url(/assets/images/wallpaper2.jpg);
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+        url(/assets/images/wallpaper2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#pocetna .linkovi-ka-stranicama .jedan-link:last-child {
+    background: -webkit-linear-gradient(
+            rgba(29, 38, 113, 0.8),
+            rgba(195, 55, 100, 0.8)
+        ),
+        url(/assets/images/wallpaper3.jpg);
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+        url(/assets/images/wallpaper3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#pocetna .linkovi-ka-stranicama .jedan-link:hover {
+    background: -webkit-linear-gradient(
+        rgba(29, 38, 113, 0.8),
+        rgba(195, 55, 100, 0.8)
+    );
+
+    background: linear-gradient(
+        rgba(29, 38, 113, 0.8),
+        rgba(195, 55, 100, 0.8)
+    );
+}
+
 /* ========================== kontakt ==========================  */
 
 #kontakt {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#kontakt h2 {
+    text-align: center;
 }
 
 #kontakt-forma {

@@ -49,6 +49,7 @@
                             placeholder="Peter Parker"
                             name="name"
                             autofocus
+                            required
                             id="full-name"
                         />
                     </div>
@@ -60,13 +61,19 @@
                             type="email"
                             name="email"
                             id="email"
+                            required
                             placeholder="peter.parker@example.com"
                         />
                     </div>
 
                     <div class="kontakt-forma-grupa">
                         <label for="message">Your message</label>
-                        <textarea name="message" id="message" maxlength="500">
+                        <textarea
+                            name="message"
+                            id="message"
+                            maxlength="500"
+                            required
+                        >
                         </textarea>
                     </div>
 
@@ -131,7 +138,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/rss.xml">
+                            <a href="/rss.xml" target="_blank">
                                 <i class="fas fa-rss"></i>
                             </a>
                         </li>
