@@ -17,41 +17,77 @@
             crossorigin="anonymous"
         ></script>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-        <title>Kontakt</title>
+        <title>Contact</title>
     </head>
     <body>
         <header id="header-kontakt">
             <nav id="glavni-meni">
                 <ul>
-                    <li><a href="index.html">Pocetna stranica</a></li>
-                    <li><a href="galerija.html">Galerija</a></li>
-                    <li><a href="radnjafilma.html">Radnja Filma</a></li>
-                    <li><a href="oautoru.html">O Autoru</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="index.html">Home page</a></li>
+                    <li><a href="galerija.html">Gallery</a></li>
+                    <li><a href="radnjafilma.html">Plot of the movie</a></li>
+                    <li><a href="oautoru.html">Author</a></li>
+                    <li><a href="kontakt.html">Contact</a></li>
                 </ul>
             </nav>
 
             <div id="glavni-naslov">
                 <h1>Avengers: Endgame</h1>
-                <h2>Kontakt</h2>
+                <h2>Contact</h2>
                 <hr />
             </div>
         </header>
 
-        <main id="pocetna">
+        <main id="kontakt">
             <section>
-                <h2>Kontaktirajte me</h2>
+                <h2>Contact me</h2>
+                <form method="POST" action="forma.php" id="kontakt-forma">
+                    <div class="kontakt-forma-grupa">
+                        <label for="full-name">Your full name</label>
+                        <input
+                            type="text"
+                            placeholder="Peter Parker"
+                            name="name"
+                            autofocus
+                            id="full-name"
+                        />
+                    </div>
+
+                    <div class="kontakt-forma-grupa">
+                        <label for="email">Your email address</label>
+
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="peter.parker@example.com"
+                        />
+                    </div>
+
+                    <div class="kontakt-forma-grupa">
+                        <label for="message">Your message</label>
+                        <textarea name="message" id="message" maxlength="500">
+                        </textarea>
+                    </div>
+
+                    <div class="kontakt-forma-grupa">
+                        <button type="submit">Contact me</button>
+                        <button type="reset">Cancel</button>
+                    </div>
+                </form>
             </section>
         </main>
 
         <footer>
             <div id="footer-wrapper">
                 <div id="copyright">
-                    <p>&copy; Vuk Miletic 2021</p>
+                    <p>&copy; Vuk Miletic 167/21</p>
                     <p class="text-wrap">
-                        Disclaimer: Ovaj sajt je radjen kao projekat za
-                        Akademiju tehnicko-umetnickih strukovnih studija, odsek
-                        Visoka ICT skola, za potrebe predmeta Web dizajn.
+                        Disclaimer: This website is a project for
+                        <a href="https://ict.edu.rs/" target="_blank">
+                            ICT College</a
+                        >, Web Design course. All rights belong to their
+                        respective owners.
                     </p>
                 </div>
 
