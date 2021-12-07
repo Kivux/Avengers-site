@@ -2,19 +2,14 @@
 	<rss version="2.0">
 	<channel>
 		<item>
-			<title>RHCP News</title>
-			<description>News about your favourite band!</description>
-			<link>http://rhcp-fansite.eu.pn/news/news.html</link>
+			<title>Gallery</title>
+			<description>Get awesome wallpapers from various Marvel Movies!</description>
+			<link>http://127.0.0.1:5500/galerija.html</link>
 		</item>
 		<item>
-			<title>RHCP Discography</title>
-			<description>New album is here! Check it out!</description>
-			<link>http://rhcp-fansite.eu.pn/discography.html</link>
-		</item>
-		<item>
-			<title>RHCP Gallery</title>
-			<description>You missed the last show? Check out our gallery!</description>
-			<link>http://rhcp-fansite.eu.pn/gallery.html</link>
+			<title>Plot of the Movie</title>
+			<description>Read fully detailed plot description!</description>
+			<link>http://127.0.0.1:5500/radnjafilma.html</link>
 		</item>
 	</channel>
 	</rss>

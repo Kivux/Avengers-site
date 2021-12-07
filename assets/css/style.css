@@ -31,6 +31,7 @@ h6 {
     color: white;
     font-family: "Comic Neue", cursive;
     display: block;
+    margin-bottom: 20px;
 }
 
 a {
@@ -54,8 +55,20 @@ main section:first-of-type {
     margin-top: 0;
 }
 
+textarea {
+    resize: vertical;
+}
+
 .important {
     color: #8831d0;
+}
+
+a {
+    color: #8831d0;
+}
+
+a:hover {
+    color: #a53bfb;
 }
 
 /* ========================== header & nav ==========================  */
@@ -94,6 +107,10 @@ nav#glavni-meni ul li {
     display: inline;
     padding: 20px;
     font-size: 20px;
+}
+
+nav a {
+    color: white;
 }
 
 nav#glavni-meni ul li:first-child,
@@ -217,12 +234,6 @@ footer #copyright .text-wrap {
     margin-bottom: 30px;
 }
 
-#pocetna section h1,
-#pocetna section h2,
-#pocetna section h3 {
-    margin-bottom: 15px;
-}
-
 #pocetna .zanrovi {
     margin: 10px 0;
 }
@@ -272,4 +283,141 @@ footer #copyright .text-wrap {
 #pocetna .glumci img {
     width: 100px;
     border-radius: 50%;
+}
+
+#pocetna .linkovi-ka-stranicama {
+    display: flex;
+}
+
+#pocetna .linkovi-ka-stranicama a {
+    color: white;
+    background: #8831d0;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    font-size: 20px;
+}
+
+#pocetna .linkovi-ka-stranicama .jedan-link {
+    background: black;
+    overflow: hidden;
+    background: #c33764;
+    background: -webkit-linear-gradient(
+            rgba(29, 38, 113, 0.8),
+            rgba(195, 55, 100, 0.8)
+        ),
+        url(/assets/images/wallpaper2.jpg);
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+        url(/assets/images/wallpaper2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#pocetna .linkovi-ka-stranicama .jedan-link:last-child {
+    background: -webkit-linear-gradient(
+            rgba(29, 38, 113, 0.8),
+            rgba(195, 55, 100, 0.8)
+        ),
+        url(/assets/images/wallpaper3.jpg);
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+        url(/assets/images/wallpaper3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#pocetna .linkovi-ka-stranicama .jedan-link:hover {
+    background: -webkit-linear-gradient(
+        rgba(29, 38, 113, 0.8),
+        rgba(195, 55, 100, 0.8)
+    );
+
+    background: linear-gradient(
+        rgba(29, 38, 113, 0.8),
+        rgba(195, 55, 100, 0.8)
+    );
+}
+
+/* ========================== kontakt ==========================  */
+
+#kontakt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kontakt h2 {
+    text-align: center;
+}
+
+#kontakt-forma {
+    margin: 40px 0;
+}
+
+.kontakt-forma-grupa {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.kontakt-forma-grupa label {
+    width: 150px;
+    display: inline-block;
+}
+
+.kontakt-forma-grupa input[type="text"],
+.kontakt-forma-grupa input[type="email"],
+.kontakt-forma-grupa textarea {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #8831d0;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.kontakt-forma-grupa button {
+    background-color: #8831d0;
+    color: black;
+    border: 1px solid #8831d0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.kontakt-forma-grupa button:hover {
+    background-color: #a53bfb;
+    border: 1px solid #a53bfb;
+    transform: scale(1.07);
+}
+
+/* ========================== o autoru ==========================  */
+
+#oautoru section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#oautoru figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#oautoru img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#oautoru .oautoru-opis {
+    text-align: center;
+    padding: 10px 200px;
+}
+
+#oautoru .oautoru-opis p {
+    margin-bottom: 20px;
 }

@@ -1,81 +1,33 @@
 <?xml version="1.0"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://rhcp-fansite.eu.pn/index.html</loc>
-		<lastmod>2016-12-02</lastmod>
+		<loc>http://127.0.0.1:5500/index.html</loc>
+		<lastmod>2021-12-09</lastmod>
 		<freq>daily</freq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>http://rhcp-fansite.eu.pn/news/news.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>weekly</freq>
-		<priority>0.90</priority>
-	</url>
-	<url>
-		<loc>http://rhcp-fansite.eu.pn/news/news1.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>monthly</freq>
-		<priority>0.90</priority>
-	</url>
-	<url>
-		<loc>http://rhcp-fansite.eu.pn/news/news2.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>monthly</freq>
-		<priority>0.90</priority>
-	</url>
-	<url>
-		<loc>http://rhcp-fansite.eu.pn/news/news3.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>monthly</freq>
-		<priority>0.90</priority>
-	</url>
-	<url>
-		<loc>http://rhcp-fansite.eu.pn/discography.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>yearly</freq>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>http://rhcp-fansite.eu.pn/gallery.html</loc>
-		<lastmod>2016-12-02</lastmod>
+		<loc>http://127.0.0.1:5500/galerija.html</loc>
+		<lastmod>2016-12-08</lastmod>
 		<freq>weekly</freq>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>http://rhcp-fansite.eu.pn/about.html</loc>
-		<lastmod>2016-12-02</lastmod>
+		<loc>http://127.0.0.1:5500/radnjafilma.html</loc>
+		<lastmod>2016-12-07</lastmod>
 		<freq>yearly</freq>
 		<priority>0.60</priority>
 	</url>
 	<url>
-		<loc>http://rhcp-fansite.eu.pn/contact.html</loc>
-		<lastmod>2016-12-02</lastmod>
+		<loc>http://127.0.0.1:5500/oautoru.html</loc>
+		<lastmod>2016-12-06</lastmod>
 		<freq>yearly</freq>
-		<priority>0.60</priority>
+		<priority>0.30</priority>
 	</url>
 	<url>
-		<loc>http://rhcp-fansite.eu.pn/members/anthony.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>monthly</freq>
-		<priority>0.70</priority>
-	</url>
-	<url>
-		<loc>http://rhcp-fansite.eu.pn/members/chad.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>monthly</freq>
-		<priority>0.70</priority>
-	</url>
-	<url>
-		<loc>http://rhcp-fansite.eu.pn/members/flea.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>monthly</freq>
-		<priority>0.70</priority>
-	</url>
-	<url>
-		<loc>http://rhcp-fansite.eu.pn/members/josh.html</loc>
-		<lastmod>2016-12-02</lastmod>
-		<freq>monthly</freq>
-		<priority>0.70</priority>
+		<loc>http://127.0.0.1:5500/kontakt.html</loc>
+		<lastmod>2016-12-05</lastmod>
+		<freq>yearly</freq>
+		<priority>0.40</priority>
 	</url>
 </urlset>
