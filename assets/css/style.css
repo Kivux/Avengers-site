@@ -273,6 +273,7 @@ footer #copyright .text-wrap {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 #pocetna .glumci figcaption p {
     font-size: 13px;
