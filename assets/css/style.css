@@ -307,9 +307,9 @@ footer #copyright .text-wrap {
             rgba(29, 38, 113, 0.8),
             rgba(195, 55, 100, 0.8)
         ),
-        url(assets/images/wallpaper2.jpg);
+        url("../images/wallpaper2.jpg");
     background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
-        url(assets/images/wallpaper2.jpg);
+        url("../images/wallpaper2.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -319,9 +319,9 @@ footer #copyright .text-wrap {
             rgba(29, 38, 113, 0.8),
             rgba(195, 55, 100, 0.8)
         ),
-        url(assets/images/wallpaper3.jpg);
+        url("../images/wallpaper3.jpg");
     background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
-        url(assets/images/wallpaper3.jpg);
+        url("../images/wallpaper3.jpg");
     background-size: cover;
     background-position: center center;
 }
