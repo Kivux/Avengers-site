@@ -4,12 +4,12 @@
 		<item>
 			<title>Gallery</title>
 			<description>Get awesome wallpapers from various Marvel Movies!</description>
-			<link>http://127.0.0.1:5500/galerija.html</link>
+			<link>https://kivux.github.io/Avengers-site/galerija.html</link>
 		</item>
 		<item>
 			<title>Plot of the Movie</title>
 			<description>Read fully detailed plot description!</description>
-			<link>http://127.0.0.1:5500/radnjafilma.html</link>
+			<link>https://kivux.github.io/Avengers-site/radnjafilma.html</link>
 		</item>
 	</channel>
 	</rss>
