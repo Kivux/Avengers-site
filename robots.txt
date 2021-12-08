@@ -1,2 +1,7 @@
+User-agent: Googlebot
+Disallow: /oautoru/
+
 User-agent: *
-Disallow: /oautoru.html
+Allow: /
+
+Sitemap: https://kivux.github.io/Avengers-site/sitemap.xml
