@@ -8,6 +8,7 @@ body {
     background: rgba(0, 0, 0, 0.9);
     color: white;
     font-family: "Comic Neue", cursive;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -90,6 +91,51 @@ header #glavni-naslov {
 
 header #glavni-naslov hr {
     width: 60%;
+}
+
+header #glavni-naslov h2 {
+    border-right: solid 3px #8831d0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header #glavni-naslov h2 {
+    animation: animated-text 3s steps(26, end) 1s 1 normal both,
+        animated-cursor 600ms steps(26, end) infinite;
+}
+
+header #glavni-naslov h2.pocetna {
+    --page-defined-width: 312px;
+}
+header #glavni-naslov h2.galerija {
+    --page-defined-width: 82px;
+}
+header #glavni-naslov h2.radnja-filma {
+    --page-defined-width: 180px;
+}
+header #glavni-naslov h2.o-autoru {
+    --page-defined-width: 330px;
+}
+header #glavni-naslov h2.kontakt {
+    --page-defined-width: 86px;
+}
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--page-defined-width);
+    }
+}
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: #8831d0;
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
 
 nav#glavni-meni {
@@ -197,6 +243,7 @@ footer #copyright .text-wrap {
     border-radius: 10px;
     display: block;
     border: 1px solid white;
+    animation: grayscale-to-normal 6s ease-in 1s 1 normal both;
 }
 
 #radnja-filma .radnja-filma--slika:nth-child(odd) {
@@ -221,6 +268,7 @@ footer #copyright .text-wrap {
 #galerija img {
     width: 250px;
     height: auto;
+    animation: grayscale-to-normal 3s ease-in 1s 1 normal both;
 }
 
 #galerija img:hover {
@@ -283,6 +331,7 @@ footer #copyright .text-wrap {
 #pocetna .glumci img {
     width: 100px;
     border-radius: 50%;
+    animation: grayscale-to-normal 6s ease-in 1s 1 normal both;
 }
 
 #pocetna .linkovi-ka-stranicama {
@@ -411,6 +460,17 @@ footer #copyright .text-wrap {
     width: 200px;
     height: auto;
     border-radius: 50%;
+    filter: grayscale();
+    animation: grayscale-to-normal 4s linear 1s 1 normal both;
+}
+
+@keyframes grayscale-to-normal {
+    from {
+        filter: grayscale();
+    }
+    to {
+        filter: none;
+    }
 }
 
 #oautoru .oautoru-opis {
