@@ -16,7 +16,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 ul {
@@ -42,7 +42,7 @@ a {
 }
 
 hr {
-    color: #8831d0;
+    color: white;
     width: 70%;
     display: inline-block;
 }
@@ -50,6 +50,10 @@ hr {
 main {
     margin: 50px 120px;
     padding: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    z-index: 999;
+    position: relative;
 }
 
 main section:first-of-type {
@@ -69,7 +73,41 @@ a {
 }
 
 a:hover {
-    color: #a53bfb;
+    color:#8831d0;
+}
+
+.aktivna-strana {
+    color:#8831d0;
+}
+
+header svg {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+}
+
+@media (min-width: 2000px) {
+    header svg {
+        bottom: -150px;
+    }
+}
+
+@media (min-width: 3000px) {
+    header svg {
+        bottom: -300px;
+    }
+}
+
+@media (min-width: 4000px) {
+    header svg {
+        bottom: -400px;
+    }
+}
+@media (min-width: 5000px) {
+    header svg {
+        bottom: -1000px;
+    }
 }
 
 /* ========================== header & nav ==========================  */
@@ -80,8 +118,8 @@ header {
 
 header #glavni-naslov {
     position: absolute;
-    bottom: 50px;
-    left: 30px;
+    bottom: 150px;
+    left: 130px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     padding: 20px;
@@ -105,7 +143,7 @@ header #glavni-naslov h2 {
 }
 
 header #glavni-naslov h2.pocetna {
-    --page-defined-width: 312px;
+    --page-defined-width: 315px;
 }
 header #glavni-naslov h2.galerija {
     --page-defined-width: 82px;
@@ -138,11 +176,23 @@ header #glavni-naslov h2.kontakt {
     }
 }
 
+#nav-grupa {
+    display: flex;
+    align-items: center;
+    background-color: #191919;
+}
+
 nav#glavni-meni {
-    width: 100%;
-    border: 3px;
-    padding: 30px;
-    background-color: rgba(76, 0, 255, 0.4);
+    margin-left: auto;
+}
+
+.logo-button {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.logo-button img {
+    width: 70px;
 }
 
 nav#glavni-meni ul {
@@ -161,23 +211,23 @@ nav a {
 
 nav#glavni-meni ul li:first-child,
 nav#glavni-meni ul a:first-child {
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 nav#glavni-meni ul li a {
-    padding: 20px;
+    padding: 10px;
     text-decoration: underline;
 }
 
-header#header-autor {
+#header-autor {
     background-image: url("../images/Avengers1.jpg");
 }
 
-header#header-galerija {
+#header-galerija {
     background-image: url("../images/wallpaper1.jpg");
 }
 
-header#header-radnja-filma {
+#header-radnja-filma {
     background-image: url("../images/wallpaper3.jpg");
 }
 
@@ -185,6 +235,7 @@ header#header-radnja-filma {
 
 footer {
     background-color: rgba(0, 0, 0, 0.9);
+    position: sticky;
 }
 
 #footer-wrapper {
@@ -259,17 +310,24 @@ footer #copyright .text-wrap {
 }
 /* ========================== galerija ==========================  */
 
+#galerija {
+    margin-top: 30px;
+}
+
 #galerija section {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galerija a {
+    display: inline-block;
 }
 
 #galerija img {
-    width: 250px;
-    height: auto;
-    height: 150px;
-    object-fit: cover;
+    height: 250px;
+    width: auto;
     animation: grayscale-to-normal 3s ease-in 1s 1 normal both;
 }
 
@@ -326,12 +384,13 @@ footer #copyright .text-wrap {
     justify-content: center;
 }
 #pocetna .glumci figcaption p {
-    font-size: 13px;
+    margin-top: 10px;
+    font-size: 16px;
     text-align: center;
 }
 
 #pocetna .glumci img {
-    width: 100px;
+    width: 170px;
     border-radius: 50%;
     animation: grayscale-to-normal 6s ease-in 1s 1 normal both;
 }
