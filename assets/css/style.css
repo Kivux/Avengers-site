@@ -39,6 +39,15 @@ a {
     color: white;
     text-decoration: none;
     font-family: "Comic Neue", cursive;
+    color: rgb(154, 101, 173);
+}
+
+a:hover {
+    color:#8831d0;
+}
+
+.aktivna-strana {
+    color: rgb(154, 101, 173);
 }
 
 hr {
@@ -65,19 +74,7 @@ textarea {
 }
 
 .important {
-    color: #8831d0;
-}
-
-a {
     color: rgb(154, 101, 173);
-}
-
-a:hover {
-    color:#8831d0;
-}
-
-.aktivna-strana {
-    color:#8831d0;
 }
 
 header svg {
@@ -251,6 +248,7 @@ footer {
 
 footer #copyright {
     text-align: center;
+    padding: 20px 0;
 }
 
 footer #social-icons ul {
@@ -274,10 +272,43 @@ footer #copyright .text-wrap {
     text-align: center;
 }
 
+footer .footer-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer .footer-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background: rgba(25, 25, 25, 0.4);
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+footer .footer-col:last-child {
+    line-height: 30px;
+}
+
+footer .footer-col:last-child ul {
+    list-style-type: disclosure-closed !important;
+    color: white;
+}
+
 /* ========================== radnja filma ==========================  */
 
 #radnja-filma .radnja-filma-opis {
     display: flex;
+}
+
+.radnja-filma-opis:nth-child(2n) {
+    background: rgba(154, 101, 173, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px 0;
 }
 
 #radnja-filma .radnja-filma--tekst p {
@@ -287,6 +318,7 @@ footer #copyright .text-wrap {
 
 #radnja-filma .radnja-filma--tekst .first-letter {
     font-size: 30px;
+    color: rgb(154, 101, 173);
 }
 
 #radnja-filma .radnja-filma--slika img {
@@ -317,12 +349,12 @@ footer #copyright .text-wrap {
 #galerija section {
     display: flex;
     gap: 10px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 #galerija a {
-    display: inline-block; 
+    display: inline-block;
 }
 
 #galerija img {
@@ -448,6 +480,11 @@ footer #copyright .text-wrap {
     );
 }
 
+#pocetna .trailer-iframe {
+    display: flex;
+    justify-content: center;
+}
+
 /* ========================== kontakt ==========================  */
 
 #kontakt {
@@ -503,9 +540,11 @@ footer #copyright .text-wrap {
     border: 1px solid #a53bfb;
     transform: scale(1.07);
 }
-#mapa{
+
+#mapa {
     margin-left: 40px;
 }
+
 /* ========================== o autoru ==========================  */
 
 #oautoru section {
