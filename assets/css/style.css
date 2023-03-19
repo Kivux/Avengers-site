@@ -217,15 +217,19 @@ nav#glavni-meni ul li a {
 }
 
 #header-autor {
-    background-image: url("../images/Avengers1.jpg");
+    background-image: url("../images/123.jpg");
 }
 
 #header-galerija {
-    background-image: url("../images/wallpaper1.jpg");
+    background-image: url("../images/1680403.png");
 }
 
 #header-radnja-filma {
     background-image: url("../images/wallpaper3.jpg");
+}
+
+#header-kontakt {
+    background-image: url("../images/thor123.jpg");
 }
 
 /* ========================== footer ==========================  */
