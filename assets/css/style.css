@@ -209,6 +209,7 @@ nav a {
 nav#glavni-meni ul li:first-child,
 nav#glavni-meni ul a:first-child {
     padding-left: 10px;
+    text-decoration: none;
 }
 
 nav#glavni-meni ul li a {
@@ -426,7 +427,7 @@ footer .footer-col:last-child ul {
 }
 
 #pocetna .glumci img {
-    width: 170px;
+    width: 119px;
     border-radius: 50%;
     animation: grayscale-to-normal 6s ease-in 1s 1 normal both;
 }
