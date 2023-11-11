@@ -43,7 +43,8 @@ a {
 }
 
 a:hover {
-    color:#8831d0;
+    color:#5d3182;
+    transition: .2s ease-in-out;
 }
 
 .aktivna-strana {
@@ -180,12 +181,12 @@ header #glavni-naslov h2.kontakt {
 }
 
 nav#glavni-meni {
-    margin-left: auto;
+    margin-left: 800px;
 }
 
 .logo-button {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 150px;
 }
 
 .logo-button img {
@@ -459,6 +460,7 @@ footer .footer-col:last-child ul {
         url("../images/wallpaper2.jpg");
     background-size: cover;
     background-position: center center;
+    transition: .2s ease-in-out;
 }
 
 #pocetna .linkovi-ka-stranicama .jedan-link:last-child {
