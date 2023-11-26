@@ -367,7 +367,25 @@ footer .footer-col:last-child ul {
     height: 250px;
     width: auto;
     animation: grayscale-to-normal 3s ease-in 1s 1 normal both;
+    border-radius: 10px;
 }
+
+#galerija img {
+    transition: .5s ease;
+    }
+    
+    #galerija img:hover{
+    box-shadow:
+    1px 1px #373737,
+    2px 2px #373737,
+    3px 3px #373737,
+    4px 4px #373737,
+    5px 5px #373737,
+    6px 6px #373737;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+    }
 
 #galerija img:hover {
     opacity: 0.5;
