@@ -60,11 +60,23 @@
                 <h2>Contact me</h2>
                 <form method="POST" action="forma.php" id="kontakt-forma">
                     <div class="kontakt-forma-grupa">
-                        <label for="full-name">Your full name</label>
+                        <label for="full-name">Your first name</label>
                         <input
                             type="text"
-                            placeholder="Peter Parker"
+                            placeholder="Peter"
                             name="name"
+                            autofocus
+                            required
+                            id="full-name"
+                        />
+                    </div>
+
+                    <div class="kontakt-forma-grupa">
+                        <label for="full-name">Your last name</label>
+                        <input
+                            type="text"
+                            placeholder="Parker"
+                            name="surname"
                             autofocus
                             required
                             id="full-name"
@@ -119,7 +131,6 @@
                 <div class="footer-row">
                     <div class="footer-col">
                         <div id="copyright">
-                            <p>&copy; Vuk Miletic 167/21</p>
                             <p class="text-wrap">
                                 Disclaimer: This website is a project for
                                 <a href="https://ict.edu.rs/" target="_blank">
@@ -186,6 +197,12 @@
                             <li><a class="aktivna-strana" href="kontakt.html">Contact</a></li>
                         </ul>
                     </nav>
+                </div>
+
+                <div id="footer-copyright">
+                    <div id="copyright-01">
+                        <p>&copy; Vuk Miletic 167/21</p>
+                    </div>
                 </div>
             </div>
         </footer>

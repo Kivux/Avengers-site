@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color:#5d3182;
+    color: rgb(196,160,252);
     transition: .2s ease-in-out;
 }
 
@@ -116,7 +116,7 @@ header {
 
 header #glavni-naslov {
     position: absolute;
-    bottom: 150px;
+    bottom: 165px;
     left: 130px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -192,6 +192,8 @@ nav#glavni-meni {
 
 .logo-button img {
     width: 70px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 nav#glavni-meni ul {
@@ -267,7 +269,7 @@ footer #social-icons ul {
 }
 
 footer #social-icons i {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 footer #social-icons i:hover {
@@ -304,6 +306,20 @@ footer .footer-col:last-child ul {
     list-style-type: disclosure-closed !important;
     color: white;
 }
+
+footer #footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 925px;
+    height: 25px;
+    margin-left: 7px;
+    margin-top: 9px;
+    border-radius: 20px;
+    background-color: #0b0b0b;
+}
+
 
 /* ========================== radnja filma ==========================  */
 
@@ -371,25 +387,46 @@ footer .footer-col:last-child ul {
     border-radius: 10px;
 }
 
-#galerija img {
-    transition: .5s ease;
-    }
-    
-    #galerija img:hover{
-    box-shadow:
-    1px 1px #373737,
-    2px 2px #373737,
-    3px 3px #373737,
-    4px 4px #373737,
-    5px 5px #373737,
-    6px 6px #373737;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: .5s ease;
-    }
-
 #galerija img:hover {
     opacity: 0.5;
+}
+
+#galerija article{
+    position: relative;
+}
+
+#galerija .sakriven-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.466);
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out all;
+}
+
+#galerija .sakriven-text p {
+    color:#fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#galerija .sakriven-text:hover{
+    opacity: 1;
+        box-shadow:
+        1px 1px #373737,
+        2px 2px #373737,
+        3px 3px #373737,
+        4px 4px #373737,
+        5px 5px #373737,
+        6px 6px #373737;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
 }
 
 /* ========================== pocetna ==========================  */
@@ -536,6 +573,8 @@ footer .footer-col:last-child ul {
 .kontakt-forma-grupa label {
     width: 150px;
     display: inline-block;
+    font-size: 17px;
+    margin-right: 15px;
 }
 
 .kontakt-forma-grupa input[type="text"],
@@ -546,8 +585,9 @@ footer .footer-col:last-child ul {
     color: white;
     padding: 10px;
     border-radius: 10px;
-    width: 250px;
+    width: 300px;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+    font-size: 15px;
 }
 
 .kontakt-forma-grupa button {
@@ -559,13 +599,14 @@ footer .footer-col:last-child ul {
     margin-left: 10px;
     cursor: pointer;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+    transition: .2s ease-in;
 }
 
 .kontakt-forma-grupa button:hover {
     background-color: rgb(154, 101, 173);
     border: 1px solid rgb(154, 101, 173);
     transform: scale(1.07);
-    transition: .2s ease-in-out;
+    transition: .2s ease-out;
 }
 
 #mapa {
