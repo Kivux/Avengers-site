@@ -362,7 +362,6 @@ footer #footer-copyright{
 }
 
 #radnja-filma .radnja-filma--slika img:hover {
-    opacity: 0.5;
     box-shadow:
     1px 1px #373737,
     2px 2px #373737,
