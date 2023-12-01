@@ -554,8 +554,9 @@ footer #footer-copyright{
 }
 #pocetna .trailer{
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 #pocetna .trailer-iframe {
