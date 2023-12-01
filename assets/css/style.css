@@ -350,6 +350,7 @@ footer #footer-copyright{
     display: block;
     border: 1px solid white;
     animation: grayscale-to-normal 6s ease-in 1s 1 normal both;
+    transition: 0.2s ease-in;
 }
 
 #radnja-filma .radnja-filma--slika:nth-child(odd) {
@@ -362,6 +363,16 @@ footer #footer-copyright{
 
 #radnja-filma .radnja-filma--slika img:hover {
     opacity: 0.5;
+    box-shadow:
+    1px 1px #373737,
+    2px 2px #373737,
+    3px 3px #373737,
+    4px 4px #373737,
+    5px 5px #373737,
+    6px 6px #373737;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: 0.2s ease-out;
 }
 /* ========================== galerija ==========================  */
 
@@ -542,10 +553,14 @@ footer #footer-copyright{
         rgba(195, 55, 100, 0.8)
     );
 }
+#pocetna .trailer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 
 #pocetna .trailer-iframe {
     display: flex;
-    justify-content: flex-start;
 }
 
 /* ========================== kontakt ==========================  */

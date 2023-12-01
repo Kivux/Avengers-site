@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://kivux.github.io/Avengers-site/index.html</loc>
-		<lastmod>2023-11-30</lastmod>
+		<lastmod>2023-12-01</lastmod>
 		<freq>daily</freq>
 		<priority>1</priority>
 	</url>
 	<url>
 		<loc>https://kivux.github.io/Avengers-site/galerija.html</loc>
-		<lastmod>2023-11-30</lastmod>
+		<lastmod>2023-12-01</lastmod>
 		<freq>weekly</freq>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://kivux.github.io/Avengers-site/radnjafilma.html</loc>
-		<lastmod>2023-11-30</lastmod>
+		<lastmod>2023-12-01</lastmod>
 		<freq>yearly</freq>
 		<priority>0.60</priority>
 	</url>
 	<url>
 		<loc>https://kivux.github.io/Avengers-site/oautoru.html</loc>
-		<lastmod>2023-11-30</lastmod>
+		<lastmod>2023-12-01</lastmod>
 		<freq>yearly</freq>
 		<priority>0.30</priority>
 	</url>
 	<url>
 		<loc>https://kivux.github.io/Avengers-site/kontakt.html</loc>
-		<lastmod>2023-11-30</lastmod>
+		<lastmod>2023-12-01</lastmod>
 		<freq>yearly</freq>
 		<priority>0.40</priority>
 	</url>
