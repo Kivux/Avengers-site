@@ -392,7 +392,7 @@ footer #footer-copyright{
 
 #galerija img {
     height: 250px;
-    width: 450px;
+    width: auto;
     animation: grayscale-to-normal 3s ease-in 1s 1 normal both;
     border-radius: 10px;
 }
